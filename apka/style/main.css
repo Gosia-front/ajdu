@@ -1,0 +1,53 @@
+/* -----------------------  Fonts ------------------------ */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src:
+        url(../fonts/Lato-Regular.woff) format('woff'),
+        url(../fonts/Lato-Regular.ttf) format('truetype'),
+        url(../fonts/Lato-Regular.eot) format('eot'),
+        url(../fonts/Lato-Regular.svg) format('svg');
+}
+@font-face {
+    font-family: 'Lato Light';
+    font-style: normal;
+    font-weight: 400;
+    src:
+        url(../fonts/Lato-Light.woff) format('woff'),
+        url(../fonts/Lato-Light.ttf) format('truetype'),
+        url(../fonts/Lato-Light.eot) format('eot'),
+        url(../fonts/Lato-Light.svg) format('svg');
+}
+@font-face{
+    font-family:'Mathlete-Bulky';
+    font-style:normal;
+    font-weight:400;
+    src:
+          url(../fontsM/.woff) format('woff'),
+        url(../fontsM/Lato-Light.Mathlete-Bulkyttf) format('truetype'),
+        url(../fontsM/Mathlete-Bulky.eot) format('eot'),
+        url(../fontsM/Mathlete-Bulky.svg) format('svg');
+}
+
+/*-----------------------End Fonts ---------------------------*/
+
+
+
+html, body{
+    width: 100%;
+    height: 100%; 
+}
+
+body {
+
+    font-family: "Oswald", Arial, sans-serif;
+    font-weight: 300;
+}
+
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+

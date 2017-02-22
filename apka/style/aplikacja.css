@@ -1,0 +1,65 @@
+/* aplikacja */
+
+.aplikacja{
+    margin-top: 20px;
+    margin-bottom: 35px;
+    font-family: "Oswald", Arial, Helvetica Neue, Helvetica,sans-serif;
+    font-weight: 300;
+    font-size: 25px;
+    width: 100%;
+    background-color: #ffffff;
+    text-align: center;
+    padding-top: 55px;
+    padding-bottom: 60px;
+    color: #222222;
+    height: 120%;
+    
+}
+.o-aplikacji{
+    height:120%;
+}
+.aplikacja p{
+ margin: 0.3em 0;
+    margin top:10%;
+   
+}
+
+
+.aplikacja p: last-child{
+    margin-bottom:
+        20%;
+}
+
+.aplikacja.ajdu{
+    color:#a499c9;
+    /*font-weight: bolder;*/
+}
+
+.fade:hover {
+    opacity: 1;
+}
+
+/* zdjęcia */
+.gallery{
+    position: relative;
+    min-height: 600px;
+}
+
+.galleryItem {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+    transition: opacity .5s ease-in-out;
+   /* filter:grayscale(100%) blur (2px); */
+}
+.galleryItem.visible{
+    opacity: 1;
+}
+
+
