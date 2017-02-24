@@ -1,61 +1,75 @@
-/* Aplikacja */
+/* planowanie */
 
-.aplikacja{
-    margin-top: 20px;
-    margin-bottom: 35px;
-    font-family: "Oswald", Arial, Helvetica Neue, Helvetica,sans-serif;
-    font-weight: 300;
-    font-size: 25px;
-    width: 100%;
-    background-color: #ffffff;
-    text-align: center;
-    padding-top: 55px;
-    padding-bottom: 60px;
-    color: #222222;
-    height: 140%;
+.planowanie{
+    width: 50%;
+    padding: 30px;
+    background: #FFFFFF;
     
+    margin: 60px auto;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+    -webkit-box-shadow:  0px 0px 15px rgba(0, 0, 0, 0.22);
+
 }
-.aplikacja p{
- margin: 0.3em 0;
-    margin top:10%;
+.planowanie h2{
+    background:#f7f7f7;
+    text-transform: uppercase;
+    color:#a499c9;
+    font-size: 22px;
+    font-weight: 180;
+    padding: 20px;
+    margin: -30px -30px 30px -30px;
    
 }
-
-.aplikacja p: last-child{
-    margin-bottom:
-        20%;
-}
-
-.aplikacja.ajdu{
-    color:#a499c9;
-    /*font-weight: bolder;*/
-}
-
-
-.fade:hover {
-    opacity: 1;
-}
-
-/* zdjęcia */
-.gallery{
-    position: relative;
-    min-height: 600px;
-}
-
-.galleryItem {
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
+.planowanie input[type="text"],
+.planowanie input[type="date"],
+.planowanie input[type="datetime"],
+.planowanie input[type="number"],
+.planowanie input[type="search"],
+.planowanie input[type="time"],
+.planowanie input[type="password"],
+.planowanie textarea,
+.planowanie radio,
+.planowanieselect 
+{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    display: block;
     width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    opacity: 0.8;
-    transition: opacity .5s ease-in-out;
-   /* filter:grayscale(100%) blur (2px); */
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+    margin-bottom: 10px;
+    font: 16px Arial, Helvetica, sans-serif;
+    height: 45px;
 }
-.galleryItem.visible{
-    opacity: 1;
+.planowanie textarea{
+    resize:none;
+    overflow: hidden;
+}
+.planowanie input[type="button"]{
+    -moz-box-shadow: inset 0px 1px 0px 0px grey;
+    -webkit-box-shadow: inset 0px 1px 0px 0px grey;
+    box-shadow: inset 0px 1px 0px 0px grey;
+    background-color: #6E8C5D;
+    border: 1px solid #6E8C5D;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 14px;
+    padding: 8px 18px;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
+
+/*.planowanie input[type="button"]:hover, 
+.planowanie input[type="submit"]:hover {
+    background:linear-gradient(to bottom, #6E8C5D 5%, #30C9C9 100%);
+    background-color:#;
+}
+
+*/

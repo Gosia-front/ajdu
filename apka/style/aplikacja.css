@@ -9,7 +9,7 @@
     width: 100%;
     background-color: #ffffff;
     text-align: center;
-    padding-top: 55px;
+    /*padding-top: 55px;*/
     padding-bottom: 60px;
     color: #222222;
     height: 120%;
@@ -17,6 +17,7 @@
 }
 .o-aplikacji{
     height:120%;
+    margin:5%;
 }
 .aplikacja p{
  margin: 0.3em 0;
@@ -43,7 +44,10 @@
 .gallery{
     position: relative;
     min-height: 600px;
+   
 }
+
+
 
 .galleryItem {
     position: absolute;
@@ -56,7 +60,8 @@
     background-size: cover;
     opacity: 0.8;
     transition: opacity .5s ease-in-out;
-   /* filter:grayscale(100%) blur (2px); */
+   
+   
 }
 .galleryItem.visible{
     opacity: 1;
